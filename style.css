@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+}
+.flex-section {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+}
+.single-flex {
+    flex: 1;
+}
+
+.section-heading {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.section-heading h3 {
+    text-transform: uppercase;
+}
+
+.section-heading p {
+    font-size: 32px;
+}
+
+/* 
+Hero CSS
+*/
+.hero-section {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75%;
+}
+.hero-text {
+    color: #fff;
+    letter-spacing: 2px;
+}
+.hero-text h2 {
+    font-size: 32px;
+}
+.hero-text h3 {
+    font-size: 52px;
+}
+.hero-text a {
+    display: inline-block;
+    background: #6C63FF;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+/* 
+Services CSS
+*/
+.services {
+    padding: 150px 100px;
+    background: #0F0F0F;
+}
+
+.all-services {
+    display: flex;
+}
+
+.single-service {
+    flex: 1;
+    color: #fff;
+    border: 1px solid #3a3a3a;
+    padding: 50px;
+    background: #181818;
+}
+
+.all-services .single-service:first-child {
+    margin-right: 30px;
+}
+
+.all-services .single-service:last-child {
+    margin-left: 30px;
+}
+
+.single-service h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.single-service ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.single-service ul li {
+    list-style-type: square;
+    margin-bottom: 7px;
+}
+
+/* 
+Projects CSS
+*/
+.projects {
+    background: #000000;
+    padding: 150px 100px;
+}
+.all-project {
+    display: flex;
+}
+.single-project {
+    flex: 1;
+}
+.all-project .single-project {
+    margin-right: 30px;
+}
+.all-project .single-project:last-child {
+    margin-right: 0;
+}
+.single-project img {
+    width: 100%;
+}
+
+/* 
+Footer CSS
+*/
+.footer {
+    background: #0F0F0F;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
